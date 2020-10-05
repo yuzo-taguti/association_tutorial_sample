@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "tweews#index"
+  root "tweets#index"
 
   devise_for :users
   resources :tweets
